@@ -5,7 +5,7 @@ import About from '../components/About'
 import Footer from '../components/Footer'
 
 const bookmark = require('../public/assets/images/bookmark.png')
-const github = require('../public/assets/images/githubjobs.png')
+const portfolio = require('../public/assets/images/portfolio.png')
 const movielibrary = require('../public/assets/images/movielibrary.png')
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Dale Bandoni</title>
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/public/assets/images/favicon.png' />
       </Head>
       <Header />
       <Project
@@ -25,12 +25,11 @@ export default function Home() {
         liveLink='https://limitless-crag-13210.herokuapp.com/'
       />
       <Project
-        title='GitHub Jobs'
-        tools={['React/', 'React Bootstrap']}
-        description='Uses the GitHub API to fetch and display jobs in real time. Uses pagination & filter for full-time roles.'
-        image={github}
-        codeLink='https://github.com/dalebandoni/github-jobs'
-        liveLink='https://dalebandoni.github.io/github-jobs/'
+        title='Portfolio Site'
+        tools={['Next.Js/', 'SASS']}
+        description='This exact site built with Next.Js and styled with SASS.'
+        image={portfolio}
+        codeLink='https://github.com/dalebandoni/portfolio-site'
       />
       <Project
         title='Movie Library'

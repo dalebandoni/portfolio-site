@@ -21,11 +21,13 @@ const Project = ({ tools, title, codeLink, liveLink, description, image }) => {
               <p>View Code</p> <AiFillGithub className={styles.icon} />
             </li>
           </a>
-          <a href={liveLink} className={styles.linkTag}>
-            <li className={styles.link}>
-              <p>View Live</p> <FiExternalLink className={styles.icon} />
-            </li>
-          </a>
+          {liveLink && (
+            <a href={liveLink} className={styles.linkTag}>
+              <li className={styles.link}>
+                <p>View Live</p> <FiExternalLink className={styles.icon} />
+              </li>
+            </a>
+          )}
         </ul>
         <p className={styles.description}>{description}</p>
       </div>
