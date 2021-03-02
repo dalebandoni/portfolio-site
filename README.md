@@ -1,1 +1,1 @@
-(/public/assets/images/portfolio.png)
+![Thumbnail](public/assets/images/portfolio.png)

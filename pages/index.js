@@ -13,7 +13,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Dale Bandoni</title>
-        <link rel='icon' href='/public/assets/images/favicon.png' />
+        <link rel='icon' href='public/assets/images/favicon.png' />
       </Head>
       <Header />
       <Project
