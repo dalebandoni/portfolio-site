@@ -2,8 +2,6 @@ import styled from '@emotion/styled'
 import { theme } from '../styles/theme'
 import { RiExternalLinkLine } from 'react-icons/ri'
 
-//const breakpoints = [576, 768, 992, 1200]
-
 const StyledNav = styled.nav`
   height: 60px;
   display: flex;
