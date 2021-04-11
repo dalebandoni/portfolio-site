@@ -23,6 +23,7 @@ const CTAbutton = styled.span`
   align-items: center;
   transition: all 0.3s cubic-bezier(0, 0.55, 0.45, 1);
 
+
   :hover {
     cursor: pointer;
     background-color: ${props =>
