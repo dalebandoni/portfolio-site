@@ -100,6 +100,7 @@ const Navbar = () => {
                 Twitter <RiExternalLinkLine className='linkIcon' />
               </li>
             </a>
+            
             <a href='https://github.com/dalebandoni'>
               <li className='link'>
                 GitHub <RiExternalLinkLine className='linkIcon' />
