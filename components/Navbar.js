@@ -1,4 +1,5 @@
 import styled from '@emotion/styled'
+import { Link } from 'next/link'
 import { theme } from '../styles/theme'
 import { RiExternalLinkLine } from 'react-icons/ri'
 
@@ -89,15 +90,21 @@ const Navbar = () => {
         </div>
         <div className='linksContainer'>
           <ul className='links'>
-            <li className='link'>
-              LinkedIn <RiExternalLinkLine className='linkIcon' />
-            </li>
-            <li className='link'>
-              Twitter <RiExternalLinkLine className='linkIcon' />
-            </li>
-            <li className='link'>
-              GitHub <RiExternalLinkLine className='linkIcon' />
-            </li>
+            <a href='https://www.linkedin.com/in/dale-bandoni/'>
+              <li className='link'>
+                LinkedIn <RiExternalLinkLine className='linkIcon' />
+              </li>
+            </a>
+            <a href='https://twitter.com/dalebandoni'>
+              <li className='link'>
+                Twitter <RiExternalLinkLine className='linkIcon' />
+              </li>
+            </a>
+            <a href='https://github.com/dalebandoni'>
+              <li className='link'>
+                GitHub <RiExternalLinkLine className='linkIcon' />
+              </li>
+            </a>
           </ul>
         </div>
       </NavContainer>
