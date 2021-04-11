@@ -8,6 +8,7 @@ import { Link } from 'react-scroll'
 const StyledIntro = styled.section`
   margin-top: 13.5rem;
   margin-bottom: 14rem;
+  
 
   .title {
     font-size: 5rem;
