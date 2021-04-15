@@ -5,6 +5,7 @@ import { FiAlertCircle } from 'react-icons/fi'
 import { BsArrowRightShort } from 'react-icons/bs'
 
 import Button from '../components/Button'
+import { Link } from 'react-scroll'
 
 const Section = styled.section`
   background: ${theme.colors.black};
@@ -95,9 +96,11 @@ const JobProspect = () => {
               If you can help please reach out!
             </span>
           </p>
-          <Button dark>
-            Contact me <BsArrowRightShort className='ctaIcon' />
-          </Button>
+          <a href='mailto:dalebandoni.10@gmail.com'>
+            <Button dark>
+              Contact me <BsArrowRightShort className='ctaIcon' />
+            </Button>
+          </a>
         </div>
       </Container>
     </Section>
