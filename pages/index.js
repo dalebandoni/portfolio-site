@@ -13,10 +13,6 @@ export default function Home() {
         <link rel='icon' href='/assets/images/logoIcon.png' />
       </Head>
       <Intro />
-      <JobProspect />
-      <Projects />
-      <About />
-      <Footer />
     </div>
   )
 }

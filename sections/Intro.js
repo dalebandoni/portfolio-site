@@ -8,18 +8,18 @@ import { Link } from 'react-scroll'
 const StyledIntro = styled.section`
   margin-top: 13.5rem;
   margin-bottom: 14rem;
-  
 
   .title {
-    font-size: 5rem;
-    font-family: 'Space Mono';
+    font-size: 10rem;
+    font-family: 'Inter';
     line-height: 140%;
     margin-bottom: 3rem;
   }
 
   .subTitle {
-    font-family: 'Nunito Sans';
-    font-size: 2rem;
+    font-family: 'Inter';
+    font-style: italic;
+    font-size: 6rem;
     line-height: 140%;
     margin-bottom: 3rem;
   }
@@ -44,37 +44,11 @@ const Intro = () => {
     <Container>
       <StyledIntro>
         <h1 className='title'>
-          I'm Dale – <br /> a Designer & Developer <br /> based in Glasgow,
-          Scotland.
+          Dale Bandoni <br />
         </h1>
         <p className='subTitle'>
-          I specialise in creating beautiful user interfaces <br /> for
-          applications and websites.
+          — Cloud Engineer, <br /> web development, ex art student.
         </p>
-        <Link
-          activeClass='active'
-          to='projects'
-          spy={true}
-          smooth={true}
-          duration={1000}
-        >
-          <Button>
-            View my work
-            <BsArrowRightShort className='ctaIcon' />
-          </Button>
-        </Link>
-        <Link
-          activeClass='active'
-          to='about'
-          spy={true}
-          smooth={true}
-          duration={1000}
-        >
-          <Button inverse>
-            Learn more about me
-            <BsArrowRightShort className='ctaIcon' />
-          </Button>
-        </Link>
       </StyledIntro>
     </Container>
   )
