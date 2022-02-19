@@ -5,8 +5,9 @@ export default function Home() {
     <div>
       <Head>
         <title>Dale Bandoni</title>
+        <link rel='icon' href='/assets/images/logoIcon.png' />
       </Head>
-      <div>This website is under maintenance.</div>
+      <div>This website is currently under maintenance 🛠.</div>
     </div>
   )
 }
